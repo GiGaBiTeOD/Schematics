@@ -3700,12 +3700,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="S1" library="switch-omron" deviceset="10-XX" device="" value="BTN1"/>
-<part name="S2" library="switch-omron" deviceset="10-XX" device="" value="BTN2"/>
-<part name="S3" library="switch-omron" deviceset="10-XX" device="" value="BTN3"/>
-<part name="S4" library="switch-omron" deviceset="10-XX" device="" value="BTN4"/>
-<part name="S5" library="switch-omron" deviceset="10-XX" device="" value="BTN5"/>
-<part name="S6" library="switch-omron" deviceset="10-XX" device="" value="BTN6"/>
+<part name="S1" library="switch-omron" deviceset="10-XX" device="" value="UP"/>
+<part name="S2" library="switch-omron" deviceset="10-XX" device="" value="CANCEL"/>
+<part name="S3" library="switch-omron" deviceset="10-XX" device="" value="RIGHT"/>
+<part name="S4" library="switch-omron" deviceset="10-XX" device="" value="DOWN"/>
+<part name="S5" library="switch-omron" deviceset="10-XX" device="" value="LEFT"/>
+<part name="S6" library="switch-omron" deviceset="10-XX" device="" value="OK"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X3" device="" value="CON"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206W" value="1K"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206W" value="1K"/>
