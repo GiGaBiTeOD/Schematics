@@ -2045,8 +2045,8 @@ CAP-10009- 50V, 10% (1206)</description>
 <instance part="JP5" gate="A" x="45.72" y="96.52"/>
 <instance part="GND5" gate="1" x="71.12" y="93.98" rot="R90"/>
 <instance part="C1" gate="G$1" x="58.42" y="88.9"/>
-<instance part="GND6" gate="1" x="426.72" y="99.06" rot="R90"/>
-<instance part="GND7" gate="1" x="312.42" y="149.86" rot="R90"/>
+<instance part="GND6" gate="1" x="426.72" y="104.14" rot="R90"/>
+<instance part="GND7" gate="1" x="261.62" y="149.86" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2106,28 +2106,28 @@ CAP-10009- 50V, 10% (1206)</description>
 <junction x="58.42" y="93.98"/>
 </segment>
 <segment>
-<pinref part="ICSP2" gate="A" pin="2"/>
-<wire x1="287.02" y1="180.34" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="180.34" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="172.72" x2="299.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="157.48" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="ICSP" gate="A" pin="6"/>
-<wire x1="292.1" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="ICSP2" gate="A" pin="1"/>
+<wire x1="279.4" y1="180.34" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="180.34" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="172.72" x2="264.16" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="157.48" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="ICSP" gate="A" pin="5"/>
+<wire x1="271.78" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="309.88" y1="149.86" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
-<junction x="292.1" y="149.86"/>
+<wire x1="264.16" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<junction x="271.78" y="149.86"/>
 </segment>
 <segment>
-<pinref part="ICSP1" gate="A" pin="6"/>
-<wire x1="401.32" y1="99.06" x2="414.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="99.06" x2="416.56" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="101.6" x2="416.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="127" x2="414.02" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="ICSP3" gate="A" pin="2"/>
-<wire x1="414.02" y1="129.54" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="ICSP3" gate="A" pin="6"/>
+<wire x1="401.32" y1="124.46" x2="408.94" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="124.46" x2="411.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="121.92" x2="411.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="106.68" x2="408.94" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="ICSP1" gate="A" pin="2"/>
+<wire x1="408.94" y1="104.14" x2="401.32" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="424.18" y1="99.06" x2="414.02" y2="99.06" width="0.1524" layer="91"/>
-<junction x="414.02" y="99.06"/>
+<wire x1="424.18" y1="104.14" x2="408.94" y2="104.14" width="0.1524" layer="91"/>
+<junction x="408.94" y="104.14"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -2165,17 +2165,6 @@ CAP-10009- 50V, 10% (1206)</description>
 <wire x1="266.7" y1="157.48" x2="271.78" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="ICSP" gate="A" pin="3"/>
 <wire x1="271.78" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="ICSP2" gate="A" pin="1"/>
-<wire x1="279.4" y1="180.34" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="180.34" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="172.72" x2="264.16" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="157.48" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="ICSP" gate="A" pin="5"/>
-<wire x1="271.78" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -2220,28 +2209,6 @@ CAP-10009- 50V, 10% (1206)</description>
 <wire x1="381" y1="124.46" x2="383.54" y2="127" width="0.1524" layer="91"/>
 <pinref part="ICSP3" gate="A" pin="3"/>
 <wire x1="383.54" y1="127" x2="393.7" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="ICSP1" gate="A" pin="5"/>
-<wire x1="393.7" y1="99.06" x2="381" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="381" y1="99.06" x2="378.46" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="101.6" x2="378.46" y2="127" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="127" x2="381" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="ICSP3" gate="A" pin="1"/>
-<wire x1="381" y1="129.54" x2="393.7" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="ICSP3" gate="A" pin="6"/>
-<wire x1="401.32" y1="124.46" x2="408.94" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="124.46" x2="411.48" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="121.92" x2="411.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="106.68" x2="408.94" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="ICSP1" gate="A" pin="2"/>
-<wire x1="408.94" y1="104.14" x2="401.32" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -2986,6 +2953,39 @@ CAP-10009- 50V, 10% (1206)</description>
 <wire x1="60.96" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="111.76" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
 <junction x="22.86" y="68.58"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<wire x1="414.02" y1="99.06" x2="416.56" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="101.6" x2="416.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="127" x2="414.02" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="ICSP3" gate="A" pin="2"/>
+<wire x1="414.02" y1="129.54" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="ICSP1" gate="A" pin="6"/>
+<wire x1="414.02" y1="99.06" x2="401.32" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="ICSP2" gate="A" pin="2"/>
+<wire x1="287.02" y1="180.34" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="180.34" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="172.72" x2="299.72" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="157.48" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="ICSP" gate="A" pin="6"/>
+<wire x1="292.1" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="ICSP3" gate="A" pin="1"/>
+<pinref part="ICSP1" gate="A" pin="5"/>
+<wire x1="393.7" y1="99.06" x2="381" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="381" y1="99.06" x2="378.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="101.6" x2="378.46" y2="127" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="127" x2="381" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="381" y1="129.54" x2="393.7" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
