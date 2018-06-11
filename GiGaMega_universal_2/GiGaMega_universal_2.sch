@@ -6691,6 +6691,90 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P_RESET" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="RESET"/>
+<part name="P_SCK" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="SCK"/>
+<part name="P_MISO" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="MISO"/>
+<part name="P_D53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D53"/>
+<part name="P_D51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D51"/>
+<part name="P_D49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D49"/>
+<part name="P_21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="MOSI"/>
+<part name="P_5V" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
+<part name="P_52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D52"/>
+<part name="P_50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D50"/>
+<part name="P_48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="D48"/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P_TX" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="TX"/>
+<part name="P_RST" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="RST"/>
+<part name="P_RX" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="RX"/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
+<part name="P+62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+9V"/>
 </parts>
 <sheets>
 <sheet>
@@ -6852,37 +6936,121 @@ Source: AVX .. aphvc.pdf</description>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="38.1" y="35.56"/>
-<instance part="JP2" gate="A" x="127" y="33.02"/>
-<instance part="JP3" gate="A" x="104.14" y="2.54" rot="R90"/>
-<instance part="JP4" gate="A" x="63.5" y="2.54" rot="R90"/>
-<instance part="JP5" gate="A" x="78.74" y="60.96" rot="R270"/>
+<instance part="JP2" gate="A" x="238.76" y="38.1"/>
+<instance part="JP3" gate="A" x="104.14" y="-96.52" rot="R90"/>
+<instance part="JP4" gate="A" x="63.5" y="-96.52" rot="R90"/>
+<instance part="JP5" gate="A" x="78.74" y="88.9" rot="R270"/>
 <instance part="P+4" gate="VCC" x="22.86" y="68.58"/>
 <instance part="GND4" gate="1" x="12.7" y="68.58" rot="R180"/>
-<instance part="I2C_BMP" gate="A" x="-5.08" y="7.62"/>
-<instance part="I2C_RTC" gate="A" x="7.62" y="7.62"/>
-<instance part="I2C_OLED" gate="A" x="-17.78" y="7.62"/>
-<instance part="SPI_NRF24L" gate="A" x="7.62" y="-22.86"/>
-<instance part="SPI_BMP" gate="A" x="-5.08" y="-22.86"/>
-<instance part="SPI" gate="A" x="-17.78" y="-22.86"/>
-<instance part="+5V" gate="A" x="7.62" y="-50.8"/>
-<instance part="DHT22" gate="A" x="43.18" y="-35.56" rot="R270"/>
-<instance part="AIR" gate="A" x="63.5" y="-35.56" rot="R270"/>
-<instance part="MOOW" gate="A" x="83.82" y="-35.56" rot="R270"/>
-<instance part="LIGHT" gate="A" x="106.68" y="-35.56" rot="R270"/>
-<instance part="TEMP_H" gate="A" x="190.5" y="48.26"/>
-<instance part="JP21" gate="A" x="129.54" y="-35.56" rot="R270"/>
-<instance part="KEYBOARD" gate="A" x="152.4" y="-35.56" rot="R270"/>
-<instance part="FLOW_C" gate="A" x="190.5" y="-10.16"/>
-<instance part="FLOW_H" gate="A" x="190.5" y="10.16"/>
-<instance part="TEMP_C" gate="A" x="190.5" y="30.48"/>
-<instance part="433MHZ_OUT" gate="A" x="40.64" y="116.84" rot="R90"/>
-<instance part="433MHZ_IN" gate="A" x="63.5" y="116.84" rot="R90"/>
-<instance part="315MHZ_OUT" gate="A" x="86.36" y="116.84" rot="R90"/>
-<instance part="315MHZ_IN" gate="A" x="109.22" y="116.84" rot="R90"/>
-<instance part="IR" gate="G$1" x="175.26" y="-35.56" rot="R270"/>
-<instance part="+3V3" gate="A" x="7.62" y="-66.04"/>
-<instance part="+3V2" gate="G$1" x="-10.16" y="-66.04" rot="R90"/>
-<instance part="P+5" gate="1" x="-10.16" y="-50.8" rot="R90"/>
+<instance part="I2C_BMP" gate="A" x="-101.6" y="7.62"/>
+<instance part="I2C_RTC" gate="A" x="-88.9" y="7.62"/>
+<instance part="I2C_OLED" gate="A" x="-114.3" y="7.62"/>
+<instance part="SPI_NRF24L" gate="A" x="-88.9" y="-22.86"/>
+<instance part="SPI_BMP" gate="A" x="-101.6" y="-22.86"/>
+<instance part="SPI" gate="A" x="-114.3" y="-22.86"/>
+<instance part="+5V" gate="A" x="-88.9" y="-50.8"/>
+<instance part="DHT22" gate="A" x="40.64" y="-134.62" rot="R270"/>
+<instance part="AIR" gate="A" x="60.96" y="-134.62" rot="R270"/>
+<instance part="MOOW" gate="A" x="81.28" y="-134.62" rot="R270"/>
+<instance part="LIGHT" gate="A" x="104.14" y="-134.62" rot="R270"/>
+<instance part="TEMP_H" gate="A" x="365.76" y="55.88"/>
+<instance part="JP21" gate="A" x="127" y="-134.62" rot="R270"/>
+<instance part="KEYBOARD" gate="A" x="149.86" y="-134.62" rot="R270"/>
+<instance part="FLOW_C" gate="A" x="365.76" y="-2.54"/>
+<instance part="FLOW_H" gate="A" x="365.76" y="17.78"/>
+<instance part="TEMP_C" gate="A" x="365.76" y="38.1"/>
+<instance part="433MHZ_OUT" gate="A" x="38.1" y="170.18" rot="R90"/>
+<instance part="433MHZ_IN" gate="A" x="60.96" y="170.18" rot="R90"/>
+<instance part="315MHZ_OUT" gate="A" x="83.82" y="170.18" rot="R90"/>
+<instance part="315MHZ_IN" gate="A" x="106.68" y="170.18" rot="R90"/>
+<instance part="IR" gate="G$1" x="172.72" y="-134.62" rot="R270"/>
+<instance part="+3V3" gate="A" x="-88.9" y="-66.04"/>
+<instance part="+3V2" gate="G$1" x="-106.68" y="-66.04" rot="R90"/>
+<instance part="P+5" gate="1" x="-106.68" y="-50.8" rot="R90"/>
+<instance part="P_RESET" gate="1" x="53.34" y="-81.28" rot="R90"/>
+<instance part="P_SCK" gate="1" x="63.5" y="-71.12"/>
+<instance part="P_MISO" gate="1" x="73.66" y="-81.28" rot="R270"/>
+<instance part="P_D53" gate="1" x="93.98" y="-81.28" rot="R90"/>
+<instance part="P_D51" gate="1" x="104.14" y="-73.66"/>
+<instance part="P_D49" gate="1" x="114.3" y="-81.28" rot="R270"/>
+<instance part="P_21" gate="1" x="63.5" y="-116.84" rot="R180"/>
+<instance part="P_5V" gate="1" x="73.66" y="-109.22" rot="R270"/>
+<instance part="P_52" gate="1" x="93.98" y="-109.22" rot="R90"/>
+<instance part="P_50" gate="1" x="104.14" y="-116.84" rot="R180"/>
+<instance part="P_48" gate="1" x="114.3" y="-109.22" rot="R270"/>
+<instance part="GND5" gate="1" x="55.88" y="-109.22" rot="R270"/>
+<instance part="GND6" gate="1" x="91.44" y="101.6" rot="R90"/>
+<instance part="+3V4" gate="G$1" x="91.44" y="109.22" rot="R270"/>
+<instance part="P_TX" gate="VCC" x="63.5" y="109.22" rot="R90"/>
+<instance part="P_RST" gate="VCC" x="63.5" y="101.6" rot="R90"/>
+<instance part="P_RX" gate="VCC" x="78.74" y="116.84"/>
+<instance part="+3V5" gate="G$1" x="7.62" y="68.58"/>
+<instance part="+3V6" gate="G$1" x="0" y="68.58"/>
+<instance part="+3V7" gate="G$1" x="-7.62" y="68.58"/>
+<instance part="+3V8" gate="G$1" x="-15.24" y="68.58"/>
+<instance part="+3V9" gate="G$1" x="-22.86" y="68.58"/>
+<instance part="+3V10" gate="G$1" x="-30.48" y="68.58"/>
+<instance part="+3V11" gate="G$1" x="-38.1" y="68.58"/>
+<instance part="+3V12" gate="G$1" x="-45.72" y="68.58"/>
+<instance part="+3V15" gate="G$1" x="-45.72" y="33.02" rot="R90"/>
+<instance part="P+6" gate="VCC" x="22.86" y="-2.54" rot="R180"/>
+<instance part="P+7" gate="VCC" x="15.24" y="-2.54" rot="R180"/>
+<instance part="P+8" gate="VCC" x="7.62" y="-2.54" rot="R180"/>
+<instance part="P+9" gate="VCC" x="0" y="-2.54" rot="R180"/>
+<instance part="P+10" gate="VCC" x="-7.62" y="-2.54" rot="R180"/>
+<instance part="P+11" gate="VCC" x="-15.24" y="-2.54" rot="R180"/>
+<instance part="P+12" gate="VCC" x="-22.86" y="-2.54" rot="R180"/>
+<instance part="P+13" gate="VCC" x="-30.48" y="-2.54" rot="R180"/>
+<instance part="P+14" gate="VCC" x="-40.64" y="-2.54" rot="R180"/>
+<instance part="P+15" gate="VCC" x="53.34" y="68.58"/>
+<instance part="P+16" gate="VCC" x="60.96" y="68.58"/>
+<instance part="P+17" gate="VCC" x="68.58" y="68.58"/>
+<instance part="P+18" gate="VCC" x="76.2" y="68.58"/>
+<instance part="P+19" gate="VCC" x="83.82" y="68.58"/>
+<instance part="P+20" gate="VCC" x="91.44" y="68.58"/>
+<instance part="P+21" gate="VCC" x="99.06" y="68.58"/>
+<instance part="+3V13" gate="G$1" x="93.98" y="33.02" rot="R270"/>
+<instance part="P+22" gate="VCC" x="55.88" y="-2.54" rot="R180"/>
+<instance part="P+23" gate="VCC" x="63.5" y="-2.54" rot="R180"/>
+<instance part="P+24" gate="VCC" x="71.12" y="-2.54" rot="R180"/>
+<instance part="P+25" gate="VCC" x="78.74" y="-2.54" rot="R180"/>
+<instance part="P+26" gate="VCC" x="86.36" y="-2.54" rot="R180"/>
+<instance part="P+27" gate="VCC" x="93.98" y="-2.54" rot="R180"/>
+<instance part="P+28" gate="VCC" x="101.6" y="-2.54" rot="R180"/>
+<instance part="P+29" gate="VCC" x="109.22" y="-2.54" rot="R180"/>
+<instance part="P+30" gate="VCC" x="116.84" y="-2.54" rot="R180"/>
+<instance part="P+31" gate="VCC" x="226.06" y="66.04"/>
+<instance part="P+32" gate="VCC" x="218.44" y="66.04"/>
+<instance part="P+33" gate="VCC" x="210.82" y="66.04"/>
+<instance part="P+34" gate="VCC" x="203.2" y="66.04"/>
+<instance part="P+35" gate="VCC" x="195.58" y="66.04"/>
+<instance part="P+36" gate="VCC" x="187.96" y="66.04"/>
+<instance part="P+37" gate="VCC" x="180.34" y="66.04"/>
+<instance part="P+38" gate="VCC" x="172.72" y="66.04"/>
+<instance part="P+39" gate="VCC" x="256.54" y="66.04"/>
+<instance part="P+40" gate="VCC" x="264.16" y="66.04"/>
+<instance part="P+41" gate="VCC" x="271.78" y="66.04"/>
+<instance part="P+42" gate="VCC" x="279.4" y="66.04"/>
+<instance part="P+43" gate="VCC" x="287.02" y="66.04"/>
+<instance part="P+44" gate="VCC" x="294.64" y="66.04"/>
+<instance part="P+45" gate="VCC" x="302.26" y="66.04"/>
+<instance part="P+46" gate="VCC" x="309.88" y="66.04"/>
+<instance part="P+47" gate="VCC" x="226.06" y="7.62" rot="R180"/>
+<instance part="P+48" gate="VCC" x="218.44" y="7.62" rot="R180"/>
+<instance part="P+49" gate="VCC" x="210.82" y="7.62" rot="R180"/>
+<instance part="P+50" gate="VCC" x="203.2" y="7.62" rot="R180"/>
+<instance part="P+51" gate="VCC" x="195.58" y="7.62" rot="R180"/>
+<instance part="P+52" gate="VCC" x="187.96" y="7.62" rot="R180"/>
+<instance part="P+53" gate="VCC" x="180.34" y="7.62" rot="R180"/>
+<instance part="P+54" gate="VCC" x="172.72" y="7.62" rot="R180"/>
+<instance part="P+55" gate="VCC" x="256.54" y="7.62" rot="R180"/>
+<instance part="P+56" gate="VCC" x="264.16" y="7.62" rot="R180"/>
+<instance part="P+57" gate="VCC" x="271.78" y="7.62" rot="R180"/>
+<instance part="P+58" gate="VCC" x="279.4" y="7.62" rot="R180"/>
+<instance part="P+59" gate="VCC" x="287.02" y="7.62" rot="R180"/>
+<instance part="P+60" gate="VCC" x="294.64" y="7.62" rot="R180"/>
+<instance part="P+61" gate="VCC" x="302.26" y="7.62" rot="R180"/>
+<instance part="P+62" gate="VCC" x="309.88" y="7.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6898,6 +7066,422 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="22.86" y1="58.42" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 <junction x="43.18" y="58.42"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<pinref part="P_RX" gate="VCC" pin="VCC"/>
+<wire x1="78.74" y1="91.44" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="5"/>
+<pinref part="P_RST" gate="VCC" pin="VCC"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_TX" gate="VCC" pin="VCC"/>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="66.04" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="39"/>
+<wire x1="35.56" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="10.16" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="37"/>
+<wire x1="35.56" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="12.7" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="35"/>
+<wire x1="35.56" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="15.24" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="33"/>
+<wire x1="35.56" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="0" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="VCC" pin="VCC"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="31"/>
+<wire x1="35.56" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="20.32" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="29"/>
+<wire x1="35.56" y1="22.86" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="22.86" x2="-15.24" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+11" gate="VCC" pin="VCC"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="27"/>
+<wire x1="35.56" y1="25.4" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="25.4" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+<wire x1="-22.86" y1="5.08" x2="-22.86" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="25"/>
+<wire x1="35.56" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="27.94" x2="-30.48" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="VCC" pin="VCC"/>
+<wire x1="-30.48" y1="5.08" x2="-30.48" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="23"/>
+<wire x1="35.56" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="30.48" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+14" gate="VCC" pin="VCC"/>
+<wire x1="-40.64" y1="5.08" x2="-40.64" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="43.18" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="50.8" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+15" gate="VCC" pin="VCC"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="43.18" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="48.26" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="VCC" pin="VCC"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="43.18" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="45.72" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+17" gate="VCC" pin="VCC"/>
+<wire x1="68.58" y1="55.88" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="43.18" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="43.18" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+18" gate="VCC" pin="VCC"/>
+<wire x1="76.2" y1="55.88" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="16"/>
+<wire x1="43.18" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="40.64" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+19" gate="VCC" pin="VCC"/>
+<wire x1="83.82" y1="55.88" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="18"/>
+<wire x1="43.18" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="38.1" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="VCC" pin="VCC"/>
+<wire x1="91.44" y1="55.88" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="20"/>
+<wire x1="43.18" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="35.56" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+21" gate="VCC" pin="VCC"/>
+<wire x1="99.06" y1="55.88" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="40"/>
+<wire x1="43.18" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="10.16" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+22" gate="VCC" pin="VCC"/>
+<wire x1="55.88" y1="5.08" x2="55.88" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="38"/>
+<wire x1="43.18" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="12.7" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+23" gate="VCC" pin="VCC"/>
+<wire x1="63.5" y1="5.08" x2="63.5" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="36"/>
+<wire x1="43.18" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="15.24" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+24" gate="VCC" pin="VCC"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="34"/>
+<wire x1="43.18" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+25" gate="VCC" pin="VCC"/>
+<wire x1="78.74" y1="5.08" x2="78.74" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="32"/>
+<wire x1="43.18" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="20.32" x2="86.36" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+26" gate="VCC" pin="VCC"/>
+<wire x1="86.36" y1="5.08" x2="86.36" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="30"/>
+<wire x1="43.18" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="93.98" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+27" gate="VCC" pin="VCC"/>
+<wire x1="93.98" y1="5.08" x2="93.98" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="28"/>
+<wire x1="43.18" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+28" gate="VCC" pin="VCC"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="26"/>
+<wire x1="43.18" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="27.94" x2="109.22" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+29" gate="VCC" pin="VCC"/>
+<wire x1="109.22" y1="5.08" x2="109.22" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="24"/>
+<wire x1="43.18" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="30.48" x2="116.84" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P+30" gate="VCC" pin="VCC"/>
+<wire x1="116.84" y1="5.08" x2="116.84" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="236.22" y1="55.88" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="55.88" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+31" gate="VCC" pin="VCC"/>
+<wire x1="226.06" y1="58.42" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="236.22" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="53.34" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+32" gate="VCC" pin="VCC"/>
+<wire x1="218.44" y1="58.42" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="236.22" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="50.8" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+33" gate="VCC" pin="VCC"/>
+<wire x1="210.82" y1="58.42" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="7"/>
+<wire x1="236.22" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="48.26" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+34" gate="VCC" pin="VCC"/>
+<wire x1="203.2" y1="58.42" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="236.22" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="45.72" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+35" gate="VCC" pin="VCC"/>
+<wire x1="195.58" y1="58.42" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="11"/>
+<wire x1="236.22" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="43.18" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+36" gate="VCC" pin="VCC"/>
+<wire x1="187.96" y1="58.42" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="13"/>
+<wire x1="236.22" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="40.64" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+37" gate="VCC" pin="VCC"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="15"/>
+<wire x1="236.22" y1="38.1" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="38.1" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+38" gate="VCC" pin="VCC"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="243.84" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="254" y1="55.88" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+39" gate="VCC" pin="VCC"/>
+<wire x1="256.54" y1="58.42" x2="256.54" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="243.84" y1="53.34" x2="259.08" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="53.34" x2="264.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+40" gate="VCC" pin="VCC"/>
+<wire x1="264.16" y1="58.42" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="6"/>
+<wire x1="243.84" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="50.8" x2="271.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+41" gate="VCC" pin="VCC"/>
+<wire x1="271.78" y1="58.42" x2="271.78" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="8"/>
+<wire x1="243.84" y1="48.26" x2="269.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="48.26" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+42" gate="VCC" pin="VCC"/>
+<wire x1="279.4" y1="58.42" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="243.84" y1="45.72" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="45.72" x2="287.02" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+43" gate="VCC" pin="VCC"/>
+<wire x1="287.02" y1="58.42" x2="287.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="12"/>
+<wire x1="243.84" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="43.18" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+44" gate="VCC" pin="VCC"/>
+<wire x1="294.64" y1="58.42" x2="294.64" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="14"/>
+<wire x1="243.84" y1="40.64" x2="284.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="40.64" x2="302.26" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+45" gate="VCC" pin="VCC"/>
+<wire x1="302.26" y1="58.42" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="16"/>
+<wire x1="243.84" y1="38.1" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="38.1" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+46" gate="VCC" pin="VCC"/>
+<wire x1="309.88" y1="58.42" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="31"/>
+<wire x1="236.22" y1="17.78" x2="228.6" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="17.78" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+47" gate="VCC" pin="VCC"/>
+<wire x1="226.06" y1="15.24" x2="226.06" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="29"/>
+<wire x1="236.22" y1="20.32" x2="223.52" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="20.32" x2="218.44" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+48" gate="VCC" pin="VCC"/>
+<wire x1="218.44" y1="15.24" x2="218.44" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="27"/>
+<wire x1="236.22" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="22.86" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+49" gate="VCC" pin="VCC"/>
+<wire x1="210.82" y1="15.24" x2="210.82" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="25"/>
+<wire x1="236.22" y1="25.4" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="25.4" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+50" gate="VCC" pin="VCC"/>
+<wire x1="203.2" y1="15.24" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="23"/>
+<wire x1="236.22" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="27.94" x2="195.58" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+51" gate="VCC" pin="VCC"/>
+<wire x1="195.58" y1="15.24" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="21"/>
+<wire x1="236.22" y1="30.48" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="30.48" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+52" gate="VCC" pin="VCC"/>
+<wire x1="187.96" y1="15.24" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="19"/>
+<wire x1="236.22" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="33.02" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+53" gate="VCC" pin="VCC"/>
+<wire x1="180.34" y1="15.24" x2="180.34" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="17"/>
+<wire x1="236.22" y1="35.56" x2="193.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="35.56" x2="172.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+54" gate="VCC" pin="VCC"/>
+<wire x1="172.72" y1="15.24" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="32"/>
+<wire x1="243.84" y1="17.78" x2="254" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="254" y1="17.78" x2="256.54" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+55" gate="VCC" pin="VCC"/>
+<wire x1="256.54" y1="15.24" x2="256.54" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="30"/>
+<wire x1="243.84" y1="20.32" x2="259.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="20.32" x2="264.16" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+56" gate="VCC" pin="VCC"/>
+<wire x1="264.16" y1="15.24" x2="264.16" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="28"/>
+<wire x1="243.84" y1="22.86" x2="264.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="22.86" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+57" gate="VCC" pin="VCC"/>
+<wire x1="271.78" y1="15.24" x2="271.78" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="26"/>
+<wire x1="243.84" y1="25.4" x2="269.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="25.4" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+58" gate="VCC" pin="VCC"/>
+<wire x1="279.4" y1="15.24" x2="279.4" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="24"/>
+<wire x1="243.84" y1="27.94" x2="274.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="27.94" x2="287.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+59" gate="VCC" pin="VCC"/>
+<wire x1="287.02" y1="15.24" x2="287.02" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="22"/>
+<wire x1="243.84" y1="30.48" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="30.48" x2="294.64" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+60" gate="VCC" pin="VCC"/>
+<wire x1="294.64" y1="15.24" x2="294.64" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="20"/>
+<wire x1="243.84" y1="33.02" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="33.02" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+61" gate="VCC" pin="VCC"/>
+<wire x1="302.26" y1="15.24" x2="302.26" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="18"/>
+<wire x1="243.84" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="35.56" x2="309.88" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+62" gate="VCC" pin="VCC"/>
+<wire x1="309.88" y1="15.24" x2="309.88" y2="10.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -6910,27 +7494,184 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="35.56" y="55.88"/>
 <junction x="43.18" y="55.88"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="A" pin="1"/>
+<wire x1="83.82" y1="91.44" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="83.82" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="58.42" y1="-109.22" x2="60.96" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="60.96" y1="-106.68" x2="60.96" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V3" gate="A" pin="1"/>
 <pinref part="+3V3" gate="A" pin="2"/>
-<wire x1="5.08" y1="-63.5" x2="5.08" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-63.5" x2="-91.44" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="A" pin="3"/>
-<wire x1="5.08" y1="-66.04" x2="5.08" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-66.04" x2="-7.62" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-66.04" x2="-91.44" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-66.04" x2="-104.14" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="JP5" gate="A" pin="2"/>
+<wire x1="88.9" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="109.22" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<junction x="43.18" y="53.34"/>
+<wire x1="35.56" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="53.34" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="7.62" y1="55.88" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
+<junction x="35.56" y="53.34"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="35.56" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="50.8" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="0" y1="55.88" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="35.56" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="0" y1="48.26" x2="-7.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<wire x1="-7.62" y1="55.88" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="35.56" y1="45.72" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="45.72" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="-15.24" y1="55.88" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="13"/>
+<wire x1="35.56" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="43.18" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="-22.86" y1="55.88" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="15"/>
+<wire x1="35.56" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="40.64" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+<wire x1="-30.48" y1="55.88" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="17"/>
+<wire x1="35.56" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="38.1" x2="-38.1" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<wire x1="-38.1" y1="55.88" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="19"/>
+<wire x1="35.56" y1="35.56" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="35.56" x2="-45.72" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+<wire x1="-45.72" y1="55.88" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="21"/>
+<wire x1="35.56" y1="33.02" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="22"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
+<wire x1="43.18" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="+5V" gate="A" pin="1"/>
 <pinref part="+5V" gate="A" pin="2"/>
-<wire x1="5.08" y1="-48.26" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-48.26" x2="-91.44" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="+5V" gate="A" pin="3"/>
-<wire x1="5.08" y1="-50.8" x2="5.08" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-50.8" x2="-7.62" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-50.8" x2="-91.44" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-50.8" x2="-104.14" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="4"/>
+<pinref part="P_SCK" gate="1" pin="+5V"/>
+<wire x1="63.5" y1="-91.44" x2="63.5" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="6"/>
+<wire x1="66.04" y1="-91.44" x2="66.04" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-83.82" x2="68.58" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="P_MISO" gate="1" pin="+5V"/>
+<wire x1="68.58" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="60.96" y1="-91.44" x2="60.96" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-83.82" x2="58.42" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="P_RESET" gate="1" pin="+5V"/>
+<wire x1="58.42" y1="-81.28" x2="55.88" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_21" gate="1" pin="+5V"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="63.5" y1="-114.3" x2="63.5" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_5V" gate="1" pin="+5V"/>
+<wire x1="71.12" y1="-109.22" x2="68.58" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-109.22" x2="66.04" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="5"/>
+<wire x1="66.04" y1="-106.68" x2="66.04" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_52" gate="1" pin="+5V"/>
+<wire x1="96.52" y1="-109.22" x2="99.06" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-109.22" x2="101.6" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="101.6" y1="-106.68" x2="101.6" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_48" gate="1" pin="+5V"/>
+<wire x1="111.76" y1="-109.22" x2="109.22" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-109.22" x2="106.68" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="106.68" y1="-106.68" x2="106.68" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="P_50" gate="1" pin="+5V"/>
+<wire x1="104.14" y1="-99.06" x2="104.14" y2="-114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="P_D51" gate="1" pin="+5V"/>
+<wire x1="104.14" y1="-91.44" x2="104.14" y2="-76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_D53" gate="1" pin="+5V"/>
+<wire x1="96.52" y1="-81.28" x2="99.06" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-81.28" x2="101.6" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="101.6" y1="-83.82" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P_D49" gate="1" pin="+5V"/>
+<wire x1="111.76" y1="-81.28" x2="109.22" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-81.28" x2="106.68" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="6"/>
+<wire x1="106.68" y1="-83.82" x2="106.68" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
