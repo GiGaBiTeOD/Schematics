@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18950,7 +18950,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="A1_IN2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="A1"/>
+<part name="A2_IN" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="A2"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -18980,6 +18980,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="CS_IN3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="CS"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="MOSI_IN4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="MOSI"/>
+<part name="A2_IN1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="A2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19333,7 +19334,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="GND17" gate="1" x="411.48" y="-30.48" rot="R90"/>
 <instance part="GND18" gate="1" x="492.76" y="-35.56" rot="R90"/>
 <instance part="P+19" gate="1" x="464.82" y="-35.56" rot="R90"/>
-<instance part="A1_IN2" gate="1" x="480.06" y="-25.4"/>
+<instance part="A2_IN" gate="1" x="480.06" y="-25.4"/>
 <instance part="P+20" gate="1" x="-147.32" y="134.62"/>
 <instance part="P+21" gate="1" x="-124.46" y="134.62"/>
 <instance part="P+22" gate="1" x="-99.06" y="134.62"/>
@@ -19363,6 +19364,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="CS_IN3" gate="1" x="-307.34" y="38.1" rot="R90"/>
 <instance part="GND23" gate="1" x="-299.72" y="22.86"/>
 <instance part="MOSI_IN4" gate="1" x="-299.72" y="35.56" rot="R90"/>
+<instance part="A2_IN1" gate="1" x="289.56" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -19777,7 +19779,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="KEYBOARD" gate="A" pin="2"/>
-<pinref part="A1_IN2" gate="1" pin="+5V"/>
+<pinref part="A2_IN" gate="1" pin="+5V"/>
 <wire x1="480.06" y1="-48.26" x2="480.06" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19919,6 +19921,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="SPI" gate="A" pin="5"/>
 <pinref part="MOSI_IN4" gate="1" pin="+5V"/>
 <wire x1="-289.56" y1="35.56" x2="-297.18" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="A2_IN1" gate="1" pin="+5V"/>
+<wire x1="266.7" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
